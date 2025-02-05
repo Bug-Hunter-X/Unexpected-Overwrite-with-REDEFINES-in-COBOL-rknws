@@ -1,0 +1,1 @@
+This example demonstrates a potential issue with the REDEFINES clause in COBOL.  Improper use of REDEFINES can cause data corruption due to overlapping memory areas. The bug.cob file shows a scenario where modifying one field might unintentionally affect another. The bugSolution.cob file provides a safer alternative.
